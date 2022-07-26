@@ -1,0 +1,104 @@
+@media (max-width:1100px) {
+    .sessao-bemvindo-content {
+        padding: 3%;
+
+    }
+
+    .sessao-minibanner {
+        float: none;
+        margin: 0 auto;
+        width: 100%;
+        max-width: 600px;
+
+    }
+
+    .sessao-descricao {
+        position: static;
+        margin-top: 20px;
+        text-align: justify;
+    }
+
+    .sessao-bemvindo-btn {
+        margin: 20px auto;
+    }
+
+    #sessao-sobre{
+        padding: 3%;
+    }
+    #sessao-sobre .sessao-minibanner {
+        float: none;
+    }
+
+    #sessao-sobre .sessao-descricao {
+        width: auto;
+        position: static;
+        margin-top: 20px;
+
+    }
+
+    #sessao-doces1, #sessao-doces2, #sessao-doces3 {
+        width: 100%;
+    }
+    .doces1-imgs{
+        width: 18%;
+        margin-left: .5%;
+        margin-right: .5%;
+    }
+    .doces2-imgs{
+        width: 31.3%;
+        margin-left: .5%;
+        margin-right: .5%;
+    }
+
+    .doces3-imgs{
+        width: 22.9%;
+        margin-left: .5%;
+        margin-right: .5%;
+    }
+    #form-contato{
+        width: 100%;
+        padding: 2%;
+    }
+
+}
+
+@media (max-width:768px){
+    section{
+        padding: 3%;
+    }
+   
+    #form-contato input[type=text], #form-contato input[type=email], #form-contato textarea {
+        width: 90%;
+    }
+    #form-contato input[type=submit]{
+        margin: 0 auto;
+    }
+}
+
+@media (max-width:425px){
+    .container{
+        width: 100%;
+    }
+    #sidebar{
+        background-color: #006599;
+        width: 100%;
+        height: auto;
+        position: fixed;
+    }
+    .sidebar-container{
+        display: block;
+    }
+    .content{
+        position: static;
+        width: 100%;
+    }
+    .sidebar-container ul li{
+        display: inline-block;
+    }
+    .logo-doceria{
+        display: none;
+    }
+    .banner{
+        width: 100%;
+    }
+}
